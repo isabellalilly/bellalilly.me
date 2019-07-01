@@ -1,0 +1,186 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  color: #2b2b2b;
+}
+
+h3, h4, p{
+    text-align: center;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float:left;
+    margin: 0 auto;
+}
+
+.third-width {
+    width: 400px;
+    float:left;
+    margin: 0 auto;
+}
+
+/***** HEADER *****/
+
+header {
+    height:800px;
+    background: url('../img/monstera-hero.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 55px;
+    color: #9FAA4F;
+}
+
+header h2 {
+    font-size: 40px;
+    color: #545150;
+    padding: 300px 0 0 600px
+}
+
+/***** PORTFOLIO *****/
+#portfolio{
+  color: #545150;
+  overflow:auto;
+}
+
+#portfolio h3{
+    font-size: 25px;
+    padding: 50px;
+}
+
+#portfolio #rogue {
+    padding: 50px 0 100px 0;
+}
+
+#portfolio #jubilee{
+    padding: 50px 0 100px 0
+}
+
+#portfolio #holstee{
+    padding: 150px 0 300px 0
+}
+
+/***** ABOUT *****/
+#about{
+  background-color: #838C56;
+  clear:both;
+  overflow:auto;
+  padding-bottom: 50px;
+}
+
+#about h3{
+  font-size: 25px;
+  padding: 50px;
+}
+
+#about p{
+  font-size: 20px;
+  line-height: 50px;
+  padding: 75px 0 100px 0;
+}
+
+/***** CONTACT *****/
+#contact{
+  background-color: #2D3619;
+  color: #A8A7A6;
+  clear: both;
+  overflow:auto;
+}
+
+#contact h3{
+  font-size: 25px;
+  padding: 50px;
+}
+
+#contact h4{
+  text-align: left;
+  padding: 30px 30px 30px 50px;
+  font-size: 25px;
+}
+
+#contact p{
+  text-align: left;
+  padding-left: 50px;
+}
+
+#contact img#sandwhich-icon{
+  padding-left: 125px;
+}
+
+#contact #envelope {
+    padding: 115px 0 0 115px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+     padding-bottom: 50px;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+
+#contact img#contact-image{
+    padding: 50px
+}
+
+
+/***** FOOTER *****/
+footer{
+  background-color: #2D3619;
+  color: #A8A7A6;
+  clear: both;
+  overflow:auto;
+  text-align: center;
+}
+
+/***** RESUME PAGE *****/
+.resume h1,h2,h3, h5 {
+  text-align: center;
+  padding: 0 100px;
+}
+
+.resume img{
+  padding-left: 580px;
+}
+
+.resume p{
+  padding: 0 200px;
+  letter-spacing: 3px;
+}
+.resume #resume-head img{
+  padding: 50px;
+  border-bottom: 1px dotted #545150;
+}
+
+.resume ul{
+  list-style: none;
+  text-align: center;
+}
+
+.resume p, h5{
+  font-style: oblique;
+}
+
+.resume h1, h2{
+  font-weight: 400;
+}
+
+.resume footer{
+  padding: 50px;
+  border-top: 1px dotted #A9AF8B;
+}
